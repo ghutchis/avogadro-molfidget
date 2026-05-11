@@ -1,0 +1,25 @@
+{
+    "output_dir": {
+        "type": "string",
+        "label": "Output Directory",
+        "default": "~/molfidget-output",
+        "toolTip": "Directory where STL and 3MF files will be saved",
+        "order": 0
+    },
+    "scale": {
+        "type": "float",
+        "label": "Scale Factor",
+        "default": 10.0,
+        "minimum": 0.1,
+        "precision": 1,
+        "toolTip": "Scale factor (angstroms → mm). 10.0 gives a typical desk model.",
+        "order": 1
+    },
+    "generate_3mf": {
+        "type": "boolean",
+        "label": "Also generate 3MF (colored)",
+        "default": true,
+        "toolTip": "Generate a colored 3MF file in addition to individual STL files",
+        "order": 2
+    }
+}
